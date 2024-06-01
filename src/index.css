@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.w-1400{
+    width: 1400px;
+}
+
+.mx-l-20{
+    margin-left: 100px;
+    
+}
+.vertical-line {
+    border-left: 2px solid #000; /* Màu và kích thước của đường thẳng */
+    height: 100px; /* Chiều cao của đường thẳng */
+}
+.mx-b-30{
+    margin-bottom: 30px;
+}
