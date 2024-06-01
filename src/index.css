@@ -6,7 +6,7 @@
     width: 1400px;
 }
 
-.mx-l-20{
+.mx-l-100{
     margin-left: 100px;
     
 }
@@ -16,4 +16,13 @@
 }
 .mx-b-30{
     margin-bottom: 30px;
+}
+.mx-l-50{
+    margin-left: 50px;
+}
+.mx-l-30{
+    margin-left: 30px;
+}
+.mx-l-90{
+    margin-left: 90px;
 }

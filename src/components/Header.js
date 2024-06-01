@@ -10,15 +10,19 @@ const Header = () => {
     return (
         <div className='h-80  mx-auto flex justify-center border border-solid border-black border-2 max-w-full'>
             <div className="px-10 bg-green-200 border-solid border-2 w-1400 flex items-center">
+                {/* avt */}
                 <div className='rounded-full overflow-hidden mr-4' style={{ width: '250px', height: '250px' }}>
                     <img src={logo} alt='avatar' width={250} height={250} className="object-cover object-center rounded-full" />
                 </div>
+                {/* name  */}
                 <div>
                     <p className='text-4xl font-bold'>PHAM VAN HAU</p>
-                    <p className='text-2xl mx-l-20'>BackEnd</p>
+                    <p className='text-2xl mx-l-100'>BackEnd</p>
                 </div>
-                <div className="vertical-line mx-5"></div>
-                <div className='mx-5'>
+                {/* line  */}
+                <div className="vertical-line mx-4"></div>
+                {/*  */}
+                <div className='mx-2'>
                     <div className='flex mx-b-30'>
                         <img src={phone} alt='icon-phone' />
                         <p className='font-bold mx-3'>037568441</p>
@@ -32,7 +36,9 @@ const Header = () => {
                         <a href='https://github.com/longsoisuaxe1a' className='font-bold mx-3'>https://github.com/longsoisuaxe1a</a>
                     </div>
                 </div>
-                <div className="vertical-line mx-2"></div>
+                {/*  */}
+                <div className="vertical-line mx-4"></div>
+                {/*  */}
                 <div className='mx-2'>
                     <div className='flex mx-b-30'>
                         <img src={user} alt='icon-user' />

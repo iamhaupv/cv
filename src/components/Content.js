@@ -1,4 +1,6 @@
+import Education from "./Education"
+
 const Content = () =>{
-    return <div>Content</div>
+    return 
 }
 export default Content

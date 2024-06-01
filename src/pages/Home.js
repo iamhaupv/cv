@@ -1,10 +1,12 @@
 import Header from "../components/Header"
-import Content from "../components/Content"
+import Education from "../components/Education"
+import TechnicalSkills from "../components/TechnicalSkills"
 const Home = () => {
     return (
         <div>
             <Header/>
-            <Content/>
+            <Education/>
+            <TechnicalSkills/>
         </div>
     )
 }
