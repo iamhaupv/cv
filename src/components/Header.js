@@ -32,8 +32,8 @@ const Header = () => {
                         <p className='font-bold mx-3'>phamvanhau692002vip@gmail.com</p>
                     </div>
                     <div className='flex mx-b-30'>
-                        <img src={github} alt='icon-github' />
-                        <a href='https://github.com/iamhaupv' className='font-bold mx-3'>https://github.com/iamhaupv</a>
+                        <a href='https://github.com/iamhaupv'><img src={github} alt='icon-github' /></a>
+                        <a id="github" href='https://github.com/iamhaupv' className='font-bold mx-3'>https://github.com/iamhaupv</a>
                     </div>
                 </div>
                 {/*  */}
