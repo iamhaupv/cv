@@ -13,7 +13,7 @@ const Project = () => {
                     <p className="italic mx-l-1000">March 2024 - June 2024</p>
                 </div>
                 <p className="italic text-2xl">Back End Developer</p>
-                <p className="text-2xl"> Resources: <a href="https://github.com/longsoisuaxe1a/node.js-mongodb-api-genchat">https://github.com/longsoisuaxe1a/node.js-mongodb-api-genchat</a>
+                <p className="text-2xl"> Resources: <a href="https://github.com/iamhaupv/Gen-Chat">https://github.com/iamhaupv/Gen-Chat</a>
                 </p>
                 <p className="text-2xl">&bull;  This project focuses on developing an API using Node.js combined with MongoDB database to build
                     a complete chat system called GenChat.</p>
@@ -26,7 +26,7 @@ const Project = () => {
             </div>
             <p className="italic text-2xl">Back End Developer</p>
             <p className="text-2xl"> Resources:
-                <a href="https://github.com/longsoisuaxe1a/node.js-mongodb-api-genchat">https://github.com/longsoisuaxe1a/node.js-mongodb-api-genchat</a>
+                <a href="https://gitlab.com/longsoisuaxe1a/Management_BookStore_Microservice">https://gitlab.com/longsoisuaxe1a/Management_BookStore_Microservice</a>
             </p>
             <p className="text-2xl">&bull;The project is a microservices system developed with Spring Boot to efficiently manage bookstore
                 operations.</p>
