@@ -24,11 +24,11 @@ const Header = () => {
                 {/*  */}
                 <div className='mx-2'>
                     <div className='flex mx-b-30'>
-                        <img src={phone} alt='icon-phone' />
-                        <p className='font-bold mx-3'>037568441</p>
+                        <a href='tel:0375684441'><img src={phone} alt='icon-phone' /></a>
+                        <p  className='font-bold mx-3'>0375684441</p>
                     </div>
                     <div className='flex mx-b-30'>
-                        <img src={email} alt='icon-email' />
+                        <a href='mailto:phamvanhau692002vip@gmail.com'><img src={email} alt='icon-email' /></a>
                         <p className='font-bold mx-3'>phamvanhau692002vip@gmail.com</p>
                     </div>
                     <div className='flex mx-b-30'>
@@ -49,8 +49,8 @@ const Header = () => {
                         <p className='font-bold mx-3'>06/09/2002</p>
                     </div>
                     <div className='flex mx-b-30'>
-                        <img src={gps} alt='icon-gps' />
-                        <p className='font-bold mx-3'>TBG Street, Ward 5, Go Vap District </p>
+                        <a href='https://goo.gl/maps/wfiXEt9DgTMiAsgS7'><img src={gps} alt='icon-gps' /></a>
+                        <p className='font-bold mx-3'>An Hiep, Tuy An, Phu Yen</p>
                     </div>
                 </div>
             </div>
