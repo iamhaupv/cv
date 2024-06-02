@@ -8,8 +8,8 @@ import calendar from "../assets/calendar.png"
 import gps from "../assets/gps.png"
 const Header = () => {
     return (
-        <div className='h-80  mx-auto flex justify-center border border-solid border-black border-2 max-w-full'>
-            <div className="px-10 bg-green-200 border-solid border-2 w-1400 flex items-center">
+        <div className='h-80  mx-auto flex justify-center max-w-full'>
+            <div className="px-10 bg-green-200 w-1400 flex items-center">
                 {/* avt */}
                 <div className='rounded-full overflow-hidden mr-4' style={{ width: '250px', height: '250px' }}>
                     <img src={logo} alt='avatar' width={250} height={250} className="object-cover object-center rounded-full" />
