@@ -17,7 +17,7 @@ const Header = () => {
                 {/* name  */}
                 <div>
                     <p className='text-4xl font-bold'>PHAM VAN HAU</p>
-                    <p className='text-2xl mx-l-100'>BackEnd</p>
+                    <p className='text-2xl mx-l-100'>Developer Web</p>
                 </div>
                 {/* line  */}
                 <div className="vertical-line mx-4"></div>
