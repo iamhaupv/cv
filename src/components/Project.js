@@ -26,7 +26,7 @@ const Project = () => {
                     </tr>
                     <tr>
                         <td className="text-3xl align-baseline">&bull;</td>
-                        <td className="p-2"><p className="text-2xl">The application can have single chat or group chat to synchronize data across web and application platforms.</p> </td>
+                        <td className="p-2"><p className="text-2xl">The application is developed according to the client-server model, the application can have single chat or group chat to synchronize data across web and application platforms.</p> </td>
                     </tr>
                     <tr>
                         <td className="text-3xl">&bull;</td>
@@ -46,19 +46,19 @@ const Project = () => {
             <table>
                 <tr>
                     <td className="text-3xl">&bull;</td>
-                    <td className="p-2"><p className="text-2xl">The project is a microservices system developed with Spring Boot to efficiently manage bookstore
-                        operations.</p></td>
+                    <td className="p-2"><p className="text-2xl">The application is developed according to the microservice model so that it can be easily managed, expanded and deployed independently.</p></td>
                 </tr>
                 <tr>
                     <td className="text-3xl align-baseline">&bull;</td>
-                    <td className="p-2"><p className="text-2xl">The project utilizes technologies such as Redis for caching, API Gateway for managing API entry
-                        points, Discovery for service discovery, Retry for handling failed requests, Rate Limiter for limiting
-                        request rates into the system. Additionally, it employs JWT authentication for login and registration,
-                        token management, and authentication.</p></td>
+                    <td className="p-2"><p className="text-2xl">Use JWT to authenticate and authorize users, Bcrypt to encrypt the user's password, each service will connect to a separate database and Redis cache to enhance performance, Discovery to let other services register for it to play. present and help them communicate with each other easily. There is an API Gateway so that all requests must go through the Gateway, which has a loadbalance function to authenticate the request token and then forward the request to the service that needs to be processed. Retry is the mechanism that allows this to happen. Returning a request or a series of requests when encountering an error ensures the system operates at its best. Ratelimiter on the client and server protects the system from DDOS attacks, optimizes resources, minimizes waiting time and latency.</p></td>
+                </tr>
+                <tr>
+                    <td className="text-3xl align-baseline">&bull;</td>
+                    <td className="p-2"><p className="text-2xl">Full-service Dockerfile to create images that run on multiple environments, Docker Compose to run up to containers with Docker with one command, Jenkinsfile connects to Gitlab via Webhook to send requests to Jenkins to execute the CICD process. When pushing code to Gitlab, it calls Jenkins to perform the CICD build process, pushing images based on Dockerfile to Dockerhub and pulling them back.</p></td>
                 </tr>
                 <tr>
                     <td className="text-3xl">&bull;</td>
-                    <td className="p-2"><p className="text-2xl">Techstack: Java, SQL Server, Docker, Redis, Spring boot, Postman..</p></td>
+                    <td className="p-2"><p className="text-2xl">Techstack: Java, MySQL, Docker, Docker-Compose, Gitlab, Jenkins, JWT, Redis, Spring boot, Postman.</p></td>
                 </tr>
             </table>
             <hr class="border-2 border-gray-600 my-4" />
