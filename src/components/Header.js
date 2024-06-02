@@ -33,7 +33,7 @@ const Header = () => {
                     </div>
                     <div className='flex mx-b-30'>
                         <img src={github} alt='icon-github' />
-                        <a href='https://github.com/longsoisuaxe1a' className='font-bold mx-3'>https://github.com/longsoisuaxe1a</a>
+                        <a href='https://github.com/iamhaupv' className='font-bold mx-3'>https://github.com/iamhaupv</a>
                     </div>
                 </div>
                 {/*  */}
