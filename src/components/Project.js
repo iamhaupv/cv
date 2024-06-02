@@ -26,7 +26,7 @@ const Project = () => {
             </div>
             <p className="italic text-2xl">Back End Developer</p>
             <p className="text-2xl"> Resources:
-                <a href="https://gitlab.com/longsoisuaxe1a/Management_BookStore_Microservice">https://gitlab.com/longsoisuaxe1a/Management_BookStore_Microservice</a>
+                <a href="https://gitlab.com/iamhaupv/Management_BookStore_Microservice">https://gitlab.com/iamhaupv/Management_BookStore_Microservice</a>
             </p>
             <p className="text-2xl">&bull;The project is a microservices system developed with Spring Boot to efficiently manage bookstore
                 operations.</p>
