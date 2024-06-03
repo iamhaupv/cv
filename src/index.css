@@ -41,6 +41,9 @@
 .mx-l-760 {
     margin-left: 760px;
 }
+.h-100{
+    height: 500px;
+}
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
