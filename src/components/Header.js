@@ -12,7 +12,7 @@ const Header = () => {
             <div className='px-10 w-1400 items-center mx-auto justify-center'>
                 <div className="px-10 h-80 bg-green-200 flex items-center">
                     {/* avt */}
-                    <div className='avatar rounded-full overflow-hidden mr-4' style={{ width: '250px', height: '250px' }}>
+                    <div className='rounded-full overflow-hidden mr-4' style={{ width: '250px', height: '250px' }}>
                         <img src={logo} alt='avatar' width={250} height={250} className="object-cover object-center rounded-full" />
                     </div>
                     {/* name  */}
@@ -23,16 +23,16 @@ const Header = () => {
                     {/* line  */}
                     <div className="vertical-line mx-4"></div>
                     {/*  */}
-                    <div className='mx-2 contact-info'>
-                        <div className='flex mx-b-30 contact-item'>
+                    <div className='mx-2'>
+                        <div className='flex mx-b-30 '>
                             <a href='tel:0375684441'><img src={phone} alt='icon-phone' /></a>
                             <p className='font-bold mx-3'>0375684441</p>
                         </div>
-                        <div className='flex mx-b-30 contact-item'>
+                        <div className='flex mx-b-30 '>
                             <a href='mailto:phamvanhau692002vip@gmail.com'><img src={email} alt='icon-email' /></a>
                             <p className='font-bold mx-3'>phamvanhau692002vip@gmail.com</p>
                         </div>
-                        <div className='flex mx-b-30 contact-item'>
+                        <div className='flex mx-b-30 '>
                             <a href='https://github.com/iamhaupv'><img src={github} alt='icon-github' /></a>
                             <a id="github" href='https://github.com/iamhaupv' className='font-bold mx-3'>https://github.com/iamhaupv</a>
                         </div>
@@ -40,16 +40,16 @@ const Header = () => {
                     {/*  */}
                     <div className="vertical-line mx-4"></div>
                     {/*  */}
-                    <div className='mx-2 personal-info'>
-                        <div className='flex mx-b-30 info-item'>
+                    <div className='mx-2 '>
+                        <div className='flex mx-b-30 '>
                             <img src={user} alt='icon-user' />
                             <p className='font-bold mx-3'>Male</p>
                         </div>
-                        <div className='flex mx-b-30 info-item'>
+                        <div className='flex mx-b-30'>
                             <img src={calendar} alt='icon-calendar' />
                             <p className='font-bold mx-3'>06/09/2002</p>
                         </div>
-                        <div className='flex mx-b-30 info-item'>
+                        <div className='flex mx-b-30 '>
                             <a href='https://goo.gl/maps/wfiXEt9DgTMiAsgS7'><img src={gps} alt='icon-gps' /></a>
                             <p className='font-bold mx-3'>An Hiep, Tuy An, Phu Yen</p>
                         </div>

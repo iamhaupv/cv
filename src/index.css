@@ -41,31 +41,3 @@
 .mx-l-760 {
     margin-left: 760px;
 }
-.h-100{
-    height: 500px;
-}
-@media (max-width: 768px) {
-    .header-content {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .vertical-line {
-        display: none;
-    }
-
-    .avatar {
-        margin-bottom: 20px;
-    }
-
-    .info,
-    .contact-info,
-    .personal-info {
-        text-align: center;
-    }
-
-    .contact-item,
-    .info-item {
-        justify-content: center;
-    }
-}
