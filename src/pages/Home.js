@@ -6,7 +6,7 @@ import Activity from "../components/Activity"
 const Home = () => {
     return (
         <div>
-            {/* <Header/> */}
+            <Header/>
             <Education/>
             <TechnicalSkills/>
             <Project/>
