@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../assets/hau4.jpg"
+import logo from "../assets/1.jpg"
 import phone from "../assets/phone-call.png"
 import email from "../assets/email.png"
 import github from "../assets/github.png"
