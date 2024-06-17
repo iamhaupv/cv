@@ -10,7 +10,7 @@ const Project = () => {
       <div>
         <div className="flex">
           <p className="font-bold text-3xl">- GenChat</p>
-          <p className="italic mx-l-1000">February 2024 - July 2014</p>
+          <p className="italic ml-[990px]">February 2024 - July 2014</p>
         </div>
         <p className="italic text-2xl">Full Stack Developer</p>
         <p className="text-2xl">
